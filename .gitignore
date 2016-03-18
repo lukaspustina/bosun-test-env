@@ -1,6 +1,7 @@
-bosun/bosun
-bosun/bosun.state
-bosun/ledis_data/
-bosun/scollector
+bosun/bin/
+bosun.state
+ledis_data/
+bosun/pkg/
+bosun/src/
 grafana/grafana-plugins-master/
 grafana/master.zip
