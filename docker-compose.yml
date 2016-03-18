@@ -1,0 +1,12 @@
+version: '2'
+services:
+  tsdb:
+    image: cd/tsdb
+    ports:
+      - "4242:4242"
+  grafana:
+    build:
+      context: grafana
+    image: cd/grafana
+    ports:
+      - "3000:3000"
